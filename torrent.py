@@ -5,10 +5,10 @@ import time
 import sys
 from upload import upload
 
-link = ('magnet:?xt=urn:btih:64A1872D2A1B4B12153C25FE29FAECAE0F19399C&dn=DJ+Khaled++POPSTAR+%28feat.+Drake%29+Rap+Single+2020+320+kbps+Beats%E2%AD%90&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce')
+link = 'magnet:?xt=urn:btih:BF937884BDB76D2B9B16B73E95DAD5541DB1F4EC&dn=Drake+-+If+You%27re+Reading+This+It%27s+Too+Late+%282015+%29+%28320kbps%29&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce'
 
 def torrent():
-    '''Download a magnet link'''
+    '''Download from a magnet link'''
 
     ses = lt.session()
     ses.listen_on(6881, 6891)
